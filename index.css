@@ -1,0 +1,102 @@
+.bg-image{
+    height: 500px;
+    width: 100%;
+    background: url("assets/pexels-suzy-hazelwood-2382325.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.navbar-brand{
+    margin-left: 50px;
+}
+
+.highlight{
+    color: black;
+    margin-top: 10px;
+    text-align: center;
+}
+
+.highlight-text{
+    max-width: 60%;
+    margin:0 auto;
+    text-align: center;
+    padding: 70px 0;
+}
+
+.strong{
+    font-weight: bolder;
+    color: green;
+}
+
+img{
+    border-radius: 10px;
+}
+
+.about{
+    margin-top: 70px;
+    max-width: 60%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.about>h1{
+    font-size: 50px;
+    color: black;
+    font-weight: bolder;
+}
+
+button.more-btn{
+    background-color: rgb(0, 158, 0);
+    color: white;
+}
+
+.headers{
+    color: rgba(0, 0, 0, 0.103);
+    font-weight: bolder;
+    font-size: 70px; 
+    margin-top: 80px;
+    margin-bottom: 50px;
+}
+button.btn-close{
+    background-color: #fff;
+}
+
+footer{
+    background-color: black;
+    color: rgb(216, 216, 216);
+    padding: 10px 0;
+    text-align: center;
+}
+
+@media only screen and (max-width: 912px) {
+    .highlight-text{
+        max-width: 90%;
+    }
+}
+@media only screen and (max-width: 768px) {
+    .headers{
+        margin-top: 50px;
+        margin-bottom: 30px;
+    }
+    .tables{
+        max-width: 90%;
+    }
+    .highlight-text{
+        padding: 40px;
+    }
+    .about{
+        max-width: 85%;
+    }
+    .about>h1{
+        font-size: 32px;
+        font-weight: bolder;
+    }
+    table{
+        display: none;
+    }
+    .navbar-brand{
+        margin-left: 20px;
+    }
+
+}
